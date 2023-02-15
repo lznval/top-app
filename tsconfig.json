@@ -19,9 +19,10 @@
     "jsx": "preserve"
   },
   "include": [
-    "next-env.d.ts",
+    "next-env-custom.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "image.d.ts"
   ],
   "exclude": [
     "node_modules"
