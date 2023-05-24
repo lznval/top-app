@@ -15,17 +15,16 @@
         "allowSingleExtends": true
       }
     ],
-    "@typescript-eslint/explicit-function-return-type": [
-      "warn",
-      {
-        "allowTypedFunctionExpressions": false
-      }
-    ]
+    "no-multi-spaces": "error",
+    "space-in-parens": "error"
   },
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended"
-  ]
+  ],
+  "env": {
+    "es6": true
+  }
 }
