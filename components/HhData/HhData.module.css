@@ -61,7 +61,7 @@
 }
 
 .filled circle {
-	fill: var(--red-rate);
+	fill: var(--red-light);
 }
 
 @media screen and (max-width: 1200px) {

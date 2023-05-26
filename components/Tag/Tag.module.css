@@ -28,7 +28,7 @@
 .red {
 	color: var(--white);
 	border: 1px solid var(--gray-light);
-	background-color: #DE0000;
+	background-color: var(--red);
 
 	font-weight: bold;
 }
