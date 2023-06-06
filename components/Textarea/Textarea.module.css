@@ -1,4 +1,9 @@
-.input {
+.textareaWrapper {
+	position: relative;
+}
+
+.textarea {
+	width: 100%;
 	padding: 7px 15px;
 	color: var(--black);
 	border: none;
@@ -11,6 +16,17 @@
 	font-family: var(--font-family);
 }
 
-.input::placeholder {
+.textarea::placeholder {
 	color: var(--gray);
+}
+
+.error {
+	border: 1px solid var(--red);
+}
+
+.errorMessage {
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	color: var(--red);
 }
