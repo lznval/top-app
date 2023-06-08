@@ -20,7 +20,7 @@
 
 .price,
 .priceTitle {
-	grid-column: priceStart / priceend;
+	grid-column: pricestart / priceend;
 
 	white-space: nowrap;
 }
