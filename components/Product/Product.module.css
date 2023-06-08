@@ -2,7 +2,8 @@
 	display: grid;
 	grid-template-columns:
 		[start] 70px [logoend] 30px [titlestart] calc(50% - 100px)
-		[middle] 1fr [priceStart] auto [priceend] 40px [creditstart] auto [creditend] 40px [ratingstart] auto [end];
+		[middle] 1fr [pricestart] auto [priceend] 40px [creditstart] auto [creditend] 40px [ratingstart] auto [end];
+
 	margin-top: 30px;
 	padding: 30px;
 }
@@ -20,6 +21,7 @@
 .price,
 .priceTitle {
 	grid-column: priceStart / priceend;
+
 	white-space: nowrap;
 }
 
@@ -31,6 +33,7 @@
 .rating,
 .ratingTitle {
 	grid-column: ratingstart / end;
+
 	white-space: nowrap;
 }
 
@@ -59,10 +62,11 @@
 }
 
 .title {
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 27px;
 	align-self: flex-end;
+
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
 }
 
 .category {
@@ -71,9 +75,10 @@
 
 .price,
 .credit {
+	align-self: flex-end;
+
 	font-size: 20px;
 	line-height: 27px;
-	align-self: flex-end;
 }
 
 .month {
@@ -98,9 +103,10 @@
 }
 
 .description {
+	margin-bottom: 15px;
+
 	font-size: 16px;
 	line-height: 24px;
-	margin-bottom: 15px;
 }
 
 .reviewButton {
@@ -113,28 +119,33 @@
 }
 
 .advTitle {
-	font-weight: bold;
 	margin-bottom: 5px;
+
+	font-weight: bold;
 }
 
 .advantages {
-	border-left: 2px solid var(--green);
-	padding-left: 15px;
 	margin-bottom: 20px;
+	padding-left: 15px;
+
+	border-left: 2px solid var(--green);
 }
 
 .disadvantages {
-	border-left: 2px solid var(--red-light);
 	padding-left: 15px;
+
+	border-left: 2px solid var(--red-light);
 }
 
 .characteristics {
 	display: grid;
-	grid-template-columns: auto 1fr auto;
+	align-items: baseline;
+
 	padding-right: 60px;
+
 	font-size: 16px;
 	line-height: 32px;
-	align-items: baseline;
+	grid-template-columns: auto 1fr auto;
 	gap: 10px;
 }
 
@@ -143,19 +154,22 @@
 }
 
 .characteristicsDots {
-	border-bottom: 1px dashed var(--gray-light);
 	margin-bottom: 5px;
+
+	border-bottom: 1px dashed var(--gray-light);
 }
 
 .closed {
 	overflow: hidden;
+
 	max-height: 0;
 	padding: 0;
 }
 
 .opened {
-	max-height: 100%;
 	overflow: hidden;
+
+	max-height: 100%;
 	padding: 30px;
 }
 
@@ -189,6 +203,7 @@
 
 	.tags {
 		grid-area: tags;
+
 		margin-bottom: 20px;
 	}
 
@@ -226,6 +241,7 @@
 
 	.features {
 		grid-area: feature;
+
 		margin-bottom: 20px;
 	}
 
