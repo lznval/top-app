@@ -35,7 +35,7 @@
 
 	font-size: 12px;
 	font-weight: 300;
-	line-height: 16px;
+	outline-offset: -1px;
 }
 
 .secondBlock {
@@ -61,7 +61,7 @@
 
 	font-size: 14px;
 	font-weight: 600;
-	line-height: 19px;
+	outline-offset: -1px;
 }
 
 .thirdLevelActive,
