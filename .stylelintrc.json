@@ -7,9 +7,9 @@
 		"stylelint-order"
 	],
 	"rules": {
-		"indentation": [
-			"tab"
-		],
-		"color-hex-case": "upper"
+		"indentation": ["tab"],
+		"color-hex-case": "upper",
+		"selector-class-pattern": "^([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*)?$",
+		"declaration-block-no-redundant-longhand-properties": null
 	}
 }

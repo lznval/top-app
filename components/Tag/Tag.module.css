@@ -35,7 +35,7 @@
 
 .grey {
 	color: var(--white);
-	background-color: #8a99b7;
+	background-color: #8A99B7;
 
 	font-weight: bold;
 }
@@ -50,5 +50,5 @@
 .primary {
 	color: var(--primary);
 	border: 1px solid var(--primary);
-	background-color: none;
+	background-color: transparent;
 }
